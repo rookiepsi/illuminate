@@ -1,0 +1,61 @@
+{
+  "name": "illuminate",
+  "displayName": "Illuminate",
+  "version": "1.0.0",
+  "publisher": "rookiepsi",
+  "description": "A color theme for Visual Studio Code.",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "author": {
+    "name": "psi"
+  },
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#f5f5f5",
+    "theme": "light"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rookiepsi/illuminate"
+  },
+  "bugs": {
+    "url": "https://github.com/rookiepsi/illuminate/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "color-theme",
+    "comments",
+    "dark",
+    "illuminate"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "injectTo": [
+          "text.html.derivative",
+          "source"
+        ],
+        "scopeName": "comment-injection.injection",
+        "path": "syntaxes/comment-injection.json"
+      },
+      {
+        "injectTo": [
+          "text.html.derivative"
+        ],
+        "scopeName": "doctype-injection.injection",
+        "path": "syntaxes/doctype-injection.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Illuminate",
+        "uiTheme": "vs-dark",
+        "path": "themes/Illuminate-color-theme.json"
+      }
+    ]
+  }
+}

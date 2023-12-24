@@ -1,0 +1,43 @@
+{
+  "scopeName": "comment-injection.injection",
+  "injectionSelector": "L:comment",
+  "patterns": [
+    {
+      "include": "#todo-comment"
+    },
+    {
+      "include": "#add-comment"
+    },
+    {
+      "include": "#change-comment"
+    },
+    {
+      "include": "#remove-comment"
+    },
+    {
+      "include": "#fix-comment"
+    }
+  ],
+  "repository": {
+    "todo-comment": {
+      "name": "comment.todo",
+      "match": "TODO:|TODO"
+    },
+    "add-comment": {
+      "name": "comment.add",
+      "match": "ADD:|ADD"
+    },
+    "change-comment": {
+      "name": "comment.change",
+      "match": "CHANGE:|CHANGE"
+    },
+    "remove-comment": {
+      "name": "comment.remove",
+      "match": "REMOVE:|REMOVE"
+    },
+    "fix-comment": {
+      "name": "comment.fix",
+      "match": "FIX:|FIX"
+    }
+  }
+}
