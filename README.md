@@ -37,6 +37,7 @@ List of keywords that can be highlighted in a comment:
 - CHANGE
 - FIX
 - REMOVE
+- NOTE
 
 <!-- CUSTOMIZE -->
 

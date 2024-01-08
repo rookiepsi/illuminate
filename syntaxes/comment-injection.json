@@ -16,6 +16,9 @@
     },
     {
       "include": "#fix-comment"
+    },
+    {
+      "include": "#note-comment"
     }
   ],
   "repository": {
@@ -38,6 +41,10 @@
     "fix-comment": {
       "name": "comment.fix",
       "match": "FIX:|FIX"
+    },
+    "note-comment": {
+      "name": "comment.note",
+      "match": "NOTE:|NOTE"
     }
   }
 }

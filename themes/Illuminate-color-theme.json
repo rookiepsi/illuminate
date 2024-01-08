@@ -862,14 +862,14 @@
       "name": "CHANGE",
       "scope": "comment.change",
       "settings": {
-        "foreground": "#ffd860"
+        "foreground": "#ffe080"
       }
     },
     {
       "name": "REMOVE",
       "scope": "comment.remove",
       "settings": {
-        "foreground": "#ff6060"
+        "foreground": "#ff8080"
       }
     },
     {
@@ -877,6 +877,13 @@
       "scope": "comment.fix",
       "settings": {
         "foreground": "#dca0ff"
+      }
+    },
+    {
+      "name": "NOTE",
+      "scope": "comment.note",
+      "settings": {
+        "foreground": "#dcddde"
       }
     },
 
